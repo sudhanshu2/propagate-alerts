@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a9185879-dde3-4e61-82b6-5c6a819daae9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/ubuntu mono/UFL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/ubuntu mono/UbuntuMono-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/ubuntu mono/UbuntuMono-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/ubuntu mono/UbuntuMono-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/ubuntu mono/UbuntuMono-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/computation/EEW.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/computation/ElarmS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/computation/Emergency.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/computation/Onsite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/computation/Predictor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/data/Emergency.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/data/Location.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/data/Severity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/propagate/Forward.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/visualizer/PropagateAlerts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SensorStream/Simulate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/visualizer/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visualizer/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visualizer/.gradle/6.1.1/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visualizer/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visualizer/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visualizer/.gradle/6.1.1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visualizer/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visualizer/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visualizer/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visualizer/.gradle/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visualizer/.gradle/checksums/md5-checksums.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visualizer/.gradle/checksums/sha1-checksums.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visualizer/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visualizer/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visualizer/.idea/checkstyle-idea.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visualizer/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visualizer/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visualizer/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visualizer/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visualizer/.idea/modules/visualizer.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visualizer/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visualizer/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visualizer/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visualizer/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visualizer/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visualizer/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visualizer/src/main/java/compute/computation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visualizer/src/main/java/compute/distribution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visualizer/src/main/java/display/map.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visualizer/src/main/java/display/window.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1e3eZpvONHYqucTzSMsWrpTCnb0" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a9185879-dde3-4e61-82b6-5c6a819daae9" name="Default Changelist" comment="" />
+      <created>1593554761546</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593554761546</updated>
+      <workItem from="1593554763883" duration="2065000" />
+      <workItem from="1593563773875" duration="414000" />
+      <workItem from="1593624438203" duration="1458000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
