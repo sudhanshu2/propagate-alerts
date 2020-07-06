@@ -20,36 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9185879-dde3-4e61-82b6-5c6a819daae9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyleidea-libs/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/ubuntu-mono/UFL.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/ubuntu-mono/UbuntuMono-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/ubuntu-mono/UbuntuMono-BoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/ubuntu-mono/UbuntuMono-Italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fonts/ubuntu-mono/UbuntuMono-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/visualizer/ComputeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/visualizer/ConsoleOutput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/visualizer/Map.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/visualizer/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/visualizer/SensorNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/visualizer/UbuntuMono.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/ubuntu mono/UFL.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/ubuntu mono/UbuntuMono-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/ubuntu mono/UbuntuMono-BoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/ubuntu mono/UbuntuMono-Italic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/ubuntu mono/UbuntuMono-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/computation/ElarmS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/computation/ElarmS.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/propagate/Forward.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/propagate/Forward.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/visualizer/PropagateAlerts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/visualizer/PropagateAlerts.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +106,11 @@
       <updated>1593554761546</updated>
       <workItem from="1593554763883" duration="2065000" />
       <workItem from="1593563773875" duration="414000" />
-      <workItem from="1593624438203" duration="4592000" />
+      <workItem from="1593624438203" duration="5092000" />
+      <workItem from="1593645633215" duration="285000" />
+      <workItem from="1593696209142" duration="2708000" />
+      <workItem from="1593886155261" duration="3000" />
+      <workItem from="1594051732154" duration="924000" />
     </task>
     <servers />
   </component>
@@ -156,26 +133,30 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="453" y="113" key="#com.intellij.ide.util.MemberChooser" timestamp="1593702389824">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="453" y="113" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1593702389824" />
     <state x="378" y="154" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1593641719754">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="378" y="154" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.800@0.0.1280.800" timestamp="1593641719754" />
-    <state width="1238" height="246" key="GridCell.Tab.0.bottom" timestamp="1593642831070">
+    <state width="1238" height="246" key="GridCell.Tab.0.bottom" timestamp="1593645011878">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="246" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1593642831070" />
-    <state width="1238" height="246" key="GridCell.Tab.0.center" timestamp="1593642831068">
+    <state width="1238" height="246" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1593645011878" />
+    <state width="1238" height="246" key="GridCell.Tab.0.center" timestamp="1593645011877">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="246" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1593642831068" />
-    <state width="1238" height="246" key="GridCell.Tab.0.left" timestamp="1593642831068">
+    <state width="1238" height="246" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1593645011877" />
+    <state width="1238" height="246" key="GridCell.Tab.0.left" timestamp="1593645011877">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="246" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1593642831068" />
-    <state width="1238" height="246" key="GridCell.Tab.0.right" timestamp="1593642831069">
+    <state width="1238" height="246" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1593645011877" />
+    <state width="1238" height="246" key="GridCell.Tab.0.right" timestamp="1593645011877">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="246" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1593642831069" />
+    <state width="1238" height="246" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1593645011877" />
     <state x="141" y="39" key="SettingsEditor" timestamp="1593641315454">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
