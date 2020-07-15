@@ -46,7 +46,7 @@ This licence does not grant any rights under trademark law and all such
 rights are reserved.
 
 Permission is hereby granted, free of charge, to any person obtaining a
-copy of the Font Software, to propagate the Font Software, subject to
+copy of the Font Software, to api.propagate the Font Software, subject to
 the below conditions:
 
 1) Each copy of the Font Software must contain the above copyright
