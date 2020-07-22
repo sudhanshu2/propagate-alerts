@@ -27,10 +27,10 @@ public class Map {
         map = new NodeMap();
         nodeArr = new ArrayList<>();
 
-        map.addImage("images/california-apple-maps.png");
+        //map.addImage("images/california-apple-maps.png");
         Map.fileName = "csv/nodes.csv";
 
-        FileHandling.createNodeCSV(30, 10, 20);
+        FileHandling.createNodeCSV(100, 10, 20);
         getNodes(Map.fileName);
 
         for (Node node : nodeArr) {
