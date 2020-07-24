@@ -1,6 +1,6 @@
 package api;
 
-import examples.*;
+import examples.ElarmS;
 
 import javax.imageio.ImageIO;
 import javax.swing.JPanel;
@@ -17,7 +17,8 @@ public class Map {
     private static NodeMap map;
     private static String fileName;
     private static ArrayList<Node> nodeArr;
-    private static final int DISTANCE_THRESHOLD = 50;
+    private static int currentNodeCount;
+
 
     private Map() {
         /* to prevent instantiation */
@@ -27,11 +28,12 @@ public class Map {
         map = new NodeMap();
         nodeArr = new ArrayList<>();
 
-        //map.addImage("images/california-apple-maps.png");
+        map.addImage("images/california-apple-maps.png");
         Map.fileName = "csv/nodes.csv";
 
         FileHandling.createNodeCSV(100, 10, 20);
         getNodes(Map.fileName);
+        Propagation.populateAdjacencyList(nodeArr);
 
         for (Node node : nodeArr) {
             map.add(node);
@@ -43,6 +45,7 @@ public class Map {
 
     private static void getNodes(String fileName) {
         BufferedReader bufferedReader;
+
         try {
             bufferedReader = new BufferedReader(new FileReader(new File(fileName)));
             String line;
@@ -52,8 +55,10 @@ public class Map {
                     System.out.println("need at least location of nodes\n");
                     System.exit(-1);
                 }
-                nodeArr.add(new Node(new ElarmS(Integer.parseInt(data[2]), Integer.parseInt(data[3])),
-                        Integer.parseInt(data[0]), Integer.parseInt(data[1])));
+
+                currentNodeCount += 1;
+                nodeArr.add(new Node(new ElarmS(Integer.parseInt(data[2]), Integer.parseInt(data[3]), currentNodeCount),
+                        Integer.parseInt(data[0]), Integer.parseInt(data[1]), currentNodeCount));
             }
 
             int maxLatitude = Integer.MIN_VALUE;
@@ -71,26 +76,12 @@ public class Map {
                 node.setBounds(node.getLongitude() * (int) latitudeMultiplier,
                         node.getLatitude() * (int) longitudeMultiplier,
                         node.getDiameter(), node.getDiameter());
-
-                ArrayList<Integer> adjacency = new ArrayList<>();
-                for (Node otherNode : nodeArr) {
-                    if ((node.getDistance(otherNode.getLongitude(),
-                            otherNode.getLatitude()) < DISTANCE_THRESHOLD) &&
-                            !otherNode.equals(node)) {
-                        adjacency.add(otherNode.getNodeID() - 1);
-                    }
-                }
-                node.setAdjacency(adjacency);
             }
         } catch (Exception e) {
             System.out.println(e.toString());
             System.out.println("could not find file with list of nodes\n");
             System.exit(-1);
         }
-    }
-
-    public static ArrayList<Node> getNodeArr() {
-        return nodeArr;
     }
 
     private static class NodeMap extends JPanel {

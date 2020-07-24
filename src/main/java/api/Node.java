@@ -1,13 +1,8 @@
 package api;
 
-import javax.swing.JButton;
-import java.awt.Color;
-import java.awt.Component;
-import java.awt.Dimension;
-import java.awt.Graphics;
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
-import java.util.ArrayList;
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
 
 /**
  * Represents a node on the map
@@ -16,15 +11,13 @@ public class Node extends JButton {
     private Clicked isClicked;
     private Trigger isTriggered;
     private final int DIAMETER;
-    private ArrayList<Integer> adjacency;
     private int longitude;
     private int latitude;
-    private final PropagationRunnable compute;
+    private final Runnable compute;
     private int nodeID;
-    private static int currentNodeCount;
     private Thread computation;
 
-    protected Node(PropagationRunnable compute, int longitude, int latitude) {
+    protected Node(Runnable compute, int longitude, int latitude, int nodeID) {
         super();
 
         isClicked = Clicked.NOT_CLICKED;
@@ -50,9 +43,7 @@ public class Node extends JButton {
         });
 
         this.compute = compute;
-
-        nodeID = currentNodeCount + 1;
-        currentNodeCount += 1;
+        this.nodeID = nodeID;
     }
 
     @Override
@@ -75,7 +66,6 @@ public class Node extends JButton {
 
     protected void startComputation() {
         if (compute != null) {
-            compute.setNode(this);
             computation = new Thread(compute);
             computation.start();
         } else {
@@ -84,22 +74,12 @@ public class Node extends JButton {
         }
     }
 
-    public Trigger getIsTriggered() {
-        return isTriggered;
-    }
-
     public void forwardAlert() {
         setIsTriggered(Trigger.FORWARDING);
-        compute.findAdjacent();
     }
 
     public void startAlert() {
         setIsTriggered(Trigger.ORIGIN);
-        compute.findAdjacent();
-    }
-
-    public ArrayList<Integer> getAdjacency() {
-        return adjacency;
     }
 
     public int getLongitude() {
@@ -108,10 +88,6 @@ public class Node extends JButton {
 
     public int getLatitude() {
         return latitude;
-    }
-
-    protected void setAdjacency(ArrayList<Integer> adjacency) {
-        this.adjacency = adjacency;
     }
 
     protected int getDiameter() {
