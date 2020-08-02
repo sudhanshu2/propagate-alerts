@@ -4,7 +4,7 @@ from collections import defaultdict
 MULTIPLIER = 1
 LATENCY_PER_MILE = 0.000005 * MULTIPLIER
 COMPUTE_TIME = 3 * MULTIPLIER
-ROUTING_PER_NODE = 0.01 * MULTIPLIER
+ROUTING_PER_NODE = 0.1 * MULTIPLIER
 
 def simulation(G, alert_origin, failure=False, failure_rate=0.2):
   for node in G.nodes:
