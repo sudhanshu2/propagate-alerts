@@ -1,11 +1,11 @@
-package api;
+package visualize.api;
 
 import javax.swing.JFrame;
 import java.awt.Component;
 import java.awt.GridBagLayout;
 
 /**
- * This displays a "map" of compute nodes and sensors, and changes color as the api.data is forwarded
+ * This displays a "map" of compute nodes and sensors, and changes color as the visualize.api.data is forwarded
  *
  * @author sudhanshu2 / sudhanshu@isi.edu
  */

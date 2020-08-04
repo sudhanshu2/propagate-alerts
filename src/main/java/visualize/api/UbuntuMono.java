@@ -1,4 +1,4 @@
-package api;
+package visualize.api;
 
 import java.awt.Font;
 import java.io.File;

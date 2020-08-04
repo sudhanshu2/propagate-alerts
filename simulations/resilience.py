@@ -10,7 +10,7 @@ NUMBER_NODES = 1000
 MIN_FAILURE = 0.01
 MAX_FAILURE = 0.03
 STEP = 0.01
-NUMBER_RUNS = 20
+NUMBER_RUNS = 10
 NODE_CONNECTIONS = 20
 
 current_failure_rate = MIN_FAILURE
@@ -49,7 +49,7 @@ while current_failure_rate <= MAX_FAILURE and all_zero == False:
   for i in range(NUMBER_RUNS):
     _, _, total_nodes_alerted = decentralized.simulation(G_alert[i], alert_origin[i], failure=True, failure_rate=current_failure_rate)
     _, _, total_nodes_alerted_random = decentralized.simulation(G_alert_random[i], alert_origin[i], failure=True, failure_rate=current_failure_rate)
-    _, _, total_nodes_alerted_curr = centralized.simulation(G_curr, alert_origin[i], multiplier=FIBER_MULTIPLIER, failure=True, failure_rate=current_failure_rate)
+    _, _, total_nodes_alerted_curr = centralized.simulation(G_curr, alert_origin[i], failure=True, failure_rate=current_failure_rate)
 
     ys[i].append(total_nodes_alerted)
     ys_random[i].append(total_nodes_alerted_random)
@@ -72,5 +72,16 @@ sys.stdout.flush()
 if all_zero == True:
     print("current failure rate: " + str(current_failure_rate))
 
-print(xs)
-print(ys)
+plt.figure(1)
+for i in range(len(xs)):
+    plt.plot(xs[i], ys[i])
+
+plt.figure(2)
+for i in range(len(xs)):
+    plt.plot(xs[i], ys_random[i])
+
+plt.figure(3)
+for i in range(len(xs)):
+    plt.plot(xs[i], ys_curr[i])
+
+plt.show()

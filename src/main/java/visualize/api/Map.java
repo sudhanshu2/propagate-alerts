@@ -1,6 +1,6 @@
-package api;
+package visualize.api;
 
-import examples.ElarmS;
+import visualize.examples.ElarmS;
 
 import javax.imageio.ImageIO;
 import javax.swing.JPanel;

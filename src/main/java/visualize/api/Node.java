@@ -1,4 +1,4 @@
-package api;
+package visualize.api;
 
 import javax.swing.*;
 import java.awt.*;

@@ -28,7 +28,7 @@ def simulation(G, alert_origin, failure=False, failure_rate=0.2):
     to_remove = list()
     if failure == True:
       for edge in neighbors:
-        probability = failure_rate * int(G.get_edge_data(edge[0], edge[1])['weight']) * 1.0 / abs(alert_origin - edge[1])
+        probability = failure_rate * int(G.get_edge_data(edge[0], edge[1])['weight']) * 1.0 / (0.00001 - abs(alert_origin - edge[1]))
         if event_failure(probability) == True:
           to_remove.append(edge)
 

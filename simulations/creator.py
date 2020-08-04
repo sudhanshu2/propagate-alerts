@@ -22,14 +22,14 @@ def decentralized(number_sensors, connected_sensors, random_connections=False):
   for i in range(1, number_sensors + 1):
     G_decentralized.add_node(i, visited="false", depth=-1)
 
-  if random_connections is True:
+  if random_connections == True:
     connected_sensors = random_generator.randrange(1, max_connected_sensors)
 
   current_node = 1
   current_difference = connected_sensors
 
   while current_node + current_difference <= number_sensors:
-    if random_connections is True:
+    if random_connections == True:
       connected_sensors = random_generator.randrange(1, max_connected_sensors)
     for i in range(connected_sensors):
       to_join = current_node + current_difference + i

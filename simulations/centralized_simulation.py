@@ -27,7 +27,7 @@ def simulation(G, alert_origin, failure=False, failure_rate=0.2):
     to_remove = list()
     if failure == True:
       for edge in neighbors:
-        probability = failure_rate * int(G.get_edge_data(edge[0], edge[1])['weight']) * 1.0 / abs(alert_origin - edge[1])
+        probability = failure_rate * int(G.get_edge_data(edge[0], edge[1])['weight']) * 1.0 / (0.00001 - abs(alert_origin - edge[1]))
         if event_failure(probability) == True:
           to_remove.append(edge)
 
@@ -40,7 +40,7 @@ def simulation(G, alert_origin, failure=False, failure_rate=0.2):
       if G.nodes[edge[1]]["visited"] == "false":
         not_visited_neighbors.append(edge[1])
         G.nodes[edge[1]]["visited"] = "true"
-        latency = COMPUTE_TIME + LATENCY_PER_MILE * G.get_edge_data(edge[0], edge[1])['weight'] + ROUTING_PER_NODE * len(G.edges(current))
+        latency = COMPUTE_TIME + LATENCY_PER_MILE * G.get_edge_data(edge[0], edge[1])['weight'] + (ROUTING_PER_NODE * len(G.edges(current)))
         G_visited[latency].append(edge[1])
 
   sorted_time_stamps = [key for key in G_visited.keys() if key != 'default']
