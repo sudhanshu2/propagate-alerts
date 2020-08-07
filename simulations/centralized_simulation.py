@@ -19,7 +19,10 @@ def simulation(G, alert_origin, failure=False, failure_rate=0.2):
 
   G_visited[0].append(alert_origin)
   count = 1
-  current_parent_nodes = 1
+  max_weight = 0
+  for edge in G.edges:
+      if max_weight < G.get_edge_data(edge[0], edge[1])['weight']:
+          max_weight = G.get_edge_data(edge[0], edge[1])['weight']
 
   while len(not_visited_neighbors) != 0:
     current = not_visited_neighbors.pop()
@@ -27,7 +30,7 @@ def simulation(G, alert_origin, failure=False, failure_rate=0.2):
     to_remove = list()
     if failure == True:
       for edge in neighbors:
-        probability = failure_rate * int(G.get_edge_data(edge[0], edge[1])['weight']) * 1.0 / (0.00001 - abs(alert_origin - edge[1]))
+        probability = failure_rate * (int(G.get_edge_data(edge[0], edge[1])['weight'] / max_weight))
         if event_failure(probability) == True:
           to_remove.append(edge)
 

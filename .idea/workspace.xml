@@ -23,39 +23,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9185879-dde3-4e61-82b6-5c6a819daae9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/edgesys/api/RandomSentenceSpout.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edgesys/api/SplitSentenceBolt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edgesys/api/TupleHelpers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edgesys/api/WordCountBolt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edgesys/api/initialize.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edgesys/api/node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edgesys/api/streamer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/visualize.api.propagate-alerts.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/plots/centralized.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/plots/decentralized.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edgesys/api/NodeBolt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edgesys/examples/earthquake/Computation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edgesys/examples/earthquake/GroundData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/api.propagate-alerts.main.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/ubuntu-mono/UFL.txt" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/ubuntu-mono/UFL.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ns-3-allinone/build.py" beforeDir="false" afterPath="$PROJECT_DIR$/ns-3-allinone/build.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/simulations/centralized_simulation.py" beforeDir="false" afterPath="$PROJECT_DIR$/simulations/centralized_simulation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simulations/creator.py" beforeDir="false" afterPath="$PROJECT_DIR$/simulations/creator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/simulations/decentralized_simulation.py" beforeDir="false" afterPath="$PROJECT_DIR$/simulations/decentralized_simulation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/simulations/resilience.py" beforeDir="false" afterPath="$PROJECT_DIR$/simulations/resilience.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/api/FileHandling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/visualize/api/FileHandling.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/api/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/visualize/api/Map.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/api/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/visualize/api/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/api/PropagateAlerts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/visualize/api/PropagateAlerts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/api/Propagation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/visualize/api/Propagation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/api/UbuntuMono.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/visualize/api/UbuntuMono.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/examples/ElarmS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/visualize/examples/ElarmS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edgesys/api/RandomSentenceSpout.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edgesys/api/SplitSentenceBolt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edgesys/api/TupleHelpers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edgesys/api/WordCountBolt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edgesys/api/initialize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edgesys/api/Initialize.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edgesys/api/node.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edgesys/api/streamer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edgesys/api/Streamer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,15 +103,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -168,7 +155,8 @@
       <workItem from="1596247384678" duration="288000" />
       <workItem from="1596317507737" duration="606000" />
       <workItem from="1596410434435" duration="1140000" />
-      <workItem from="1596470657321" duration="3094000" />
+      <workItem from="1596470657321" duration="8268000" />
+      <workItem from="1596755156670" duration="1235000" />
     </task>
     <servers />
   </component>
@@ -200,10 +188,10 @@
     </state>
     <state x="-2233" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900/-2560.0.2560.1440@-2560.0.2560.1440" timestamp="1594942433142" />
     <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/1440.0.960.704/0.0.1440.900@0.0.1440.900" timestamp="1594686279397" />
-    <state x="453" y="113" key="#com.intellij.ide.util.MemberChooser" timestamp="1595401716257">
+    <state x="453" y="113" key="#com.intellij.ide.util.MemberChooser" timestamp="1596591182878">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="453" y="113" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1595401716257" />
+    <state x="453" y="113" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1596591182878" />
     <state x="2346" y="203" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/1440.0.2560.1440@1440.0.2560.1440" timestamp="1594677054291" />
     <state x="-1464" y="651" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1596489218636">
       <screen x="-2560" y="0" width="2560" height="1440" />

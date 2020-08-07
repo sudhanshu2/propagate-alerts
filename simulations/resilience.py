@@ -7,10 +7,10 @@ import centralized_simulation as centralized
 import matplotlib.pyplot as plt
 
 NUMBER_NODES = 1000
-MIN_FAILURE = 0.01
-MAX_FAILURE = 0.03
-STEP = 0.01
-NUMBER_RUNS = 10
+MIN_FAILURE = 0.0001
+MAX_FAILURE = 1
+STEP = 0.0001
+NUMBER_RUNS = 1
 NODE_CONNECTIONS = 20
 
 current_failure_rate = MIN_FAILURE
@@ -55,7 +55,9 @@ while current_failure_rate <= MAX_FAILURE and all_zero == False:
     ys_random[i].append(total_nodes_alerted_random)
     ys_curr[i].append(total_nodes_alerted_curr)
 
-    if total_nodes_alerted == 0 and total_nodes_alerted_random == 0 and total_nodes_alerted_curr == 0:
+    # print(str(total_nodes_alerted) + " " + str(total_nodes_alerted_random) + " " + str(total_nodes_alerted_curr))
+
+    if total_nodes_alerted == 1 and total_nodes_alerted_random == 1 and total_nodes_alerted_curr == 1:
       count += 1
 
     total_iterations += 1
