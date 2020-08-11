@@ -17,7 +17,9 @@ If we compare a decentralized system with a centralized one where all nodes are 
 
 The decentralized system is divided into a network with random number of neighbors (more realistic) and one with fixed number of neighbors per node. 
 
-The orange line in the graphs represent the centralized network of nodes with a server, the blue line is a decentralized graph with fixed number of neighbors and the green one is with random number of neighbors with the maximum neighbors not exceeding the number of neighbors in the network with fixed number of neighbors.
+The orange line in the graphs represent the centralized network of nodes with a server, the blue line is a decentralized graph with fixed number of neighbors and the green one is with random number of neighbors with the maximum neighbors not exceeding the number of neighbors in the network with fixed number of neighbors. All of the graphs contain 1000 nodes and the decentralized ones have 20 neighbors per node (at max that number for graph with random number of neighbors).
+
+**Latency and failure rate represent relative numbers and are not accurate numbers of real world performance of any of the networks**
 
 ## Visualization
 
