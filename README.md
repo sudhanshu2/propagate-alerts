@@ -1,5 +1,8 @@
 # Propagate Alerts
 
+[![hackmd-github-sync-badge](https://hackmd.io/w1v7ULJ_RxmXK5ay-AP4fQ/badge)](https://hackmd.io/w1v7ULJ_RxmXK5ay-AP4fQ)
+
+
 This app uses EdgeSys to develop a decentralized alert system that reduces latency close to the cloudlet where the alert originates, thereby helping increase response time for time-critical emergencies like earthquake response or accidents. This idea can further be expanded to include applications that require limited or close proximity propagation, such as tracking of person or object of interest using a network of cameras and nodes.
 
 
@@ -52,6 +55,16 @@ The simulation uses a map of California fetched from Apple Maps to show the loca
 When the simulation is run, it generates text files which contain data from the Elarms implementation along with a window that visualizes the nodes and their propagation. The image below is a sample run of the application where the blue nodes are those which have not been alerted or are origin of alerts. The red ones are the alert origins and the orange ones are the nodes which have been alerted and are forwarding alerts.
 
 <img src="images/plots/visualization.png?raw=true" height="350" width="350" alt="visualization">
+
+## Proof of concept on EdgeSys
+This API includes a proof of concept of a potential implementation on EdgeSys, a decentralized edge-computing framework currently under developed. This API has been designed to exploit the unique nature of the framework and builds on the powerful [Heron](https://incubator.apache.org/clutch/heron.html) layer of EdgeSys.
+
+### Implementation nitty-gritty
+
+## Edge-based RDAnet 
+
+## Edge-based Earthquake Early Warning System
+
 
 ---
 
