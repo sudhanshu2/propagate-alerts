@@ -21,8 +21,25 @@ The orange line in the graphs represent the centralized network of nodes with a 
 
 **Latency and failure rate represent relative numbers and are not accurate numbers of real world performance of any of the networks**
 
-## Visualization
+This is a visualization of the graphs that were used for simulations
 
+<img src="images/plots/centralized.png?raw=true" height="350" width="350" alt="centralized network" align="left">
+<img src="images/plots/decentralized.png?raw=true" height="350" width="350" alt="decentralized network" align"right">
+
+<br>
+
+Fault tolerance of the decentralized networks is significantly better than the centralized one. In this simulation, for centralized graph the rate of failure is multiplied with the normalized distance between nodes whereas in the decentralized network the rate is multipled with the normalized depth of the node.
+
+<img src="images/plots/fault-tolerance.png?raw=true" height="350" width="350" alt="fault tolerance" align="center">
+
+<br>
+
+The rate of propagation of the decentralized graphs is significantly better than the centralized one closer to the alert origin, and this improvement is present with fixed and random number of neighbors in the decentralized network.
+
+<img src="images/plots/propagation-fixed.png?raw=true" height="350" width="350" alt="propagation with fixed no. neighbors" align="left">
+<img src="images/plots/propagation-random.png?raw=true" height="350" width="350" alt="propagation with random no. neighbors">
+
+## Visualization
 
 The Java application attached has two elements: the API and an example of the Earthquake Early Warning application that uses the API.
 
@@ -32,8 +49,9 @@ The location of compute nodes is relative to the **maximum** x and y coordinates
 
 The simulation uses a map of California fetched from Apple Maps to show the location of nodes accross the map, but the data used is random numbers and the location of the nodes is also random right now. But both of them can be modified to use actual data using the CSV file interface used in the code. 
 
-When the simulation is run, it generates text files which contain data from the Elarms implementation along with a window that visualizes the nodes and their propagation.
+When the simulation is run, it generates text files which contain data from the Elarms implementation along with a window that visualizes the nodes and their propagation. The image below is a sample run of the application where the blue nodes are those which have not been alerted or are origin of alerts. The red ones are the alert origins and the orange ones are the nodes which have been alerted and are forwarding alerts.
 
+<img src="images/plots/visualization.png?raw=true" height="350" width="350" alt="visualization">
 
 ---
 
